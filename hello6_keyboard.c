@@ -121,6 +121,8 @@ int main(void)
                 case SDL_SCANCODE_RIGHT:
                     right = 1;
                     break;
+                default:
+                    break;
                 }
                 break;
             case SDL_KEYUP:
@@ -141,6 +143,8 @@ int main(void)
                 case SDL_SCANCODE_D:
                 case SDL_SCANCODE_RIGHT:
                     right = 0;
+                    break;
+                default:
                     break;
                 }
                 break;
